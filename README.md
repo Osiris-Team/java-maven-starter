@@ -9,3 +9,27 @@ Simply clone/download this repo, rename the placeholders, and you are good to go
  - Tests get ran at build
  - Resource filtering enabled
  - Basic file structure 
+
+README template:
+
+# INSERT_PROJECT_NAME_HERE
+INSERT_PROJECT_DESCRIPTION_HERE
+
+## Links
+Insert_important_links_here
+
+## Installation
+Insert_installation_steps_here
+
+## Motivation
+Explain_why_you_started_this_project
+
+## Features
+Insert_a_short_and_consise_list_of_features_here
+
+## Examples
+Insert_usage_examples_here
+
+## FAQ
+Frequently_asked_questions_here
+
