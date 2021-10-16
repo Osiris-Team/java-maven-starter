@@ -15,6 +15,7 @@
     <properties>
         <java.version>8</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <main.class>com.author.project.RenameMe</main.class>
     </properties>
 
     <dependencies>
@@ -47,6 +48,24 @@
                     <target>${java.version}</target>
                 </configuration>
             </plugin>
+                 
+            <!--
+            Make this jar executable.
+            Remember to check the the jars entry point (main.class property above).
+
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-jar-plugin</artifactId>
+                <version>3.2.0</version>
+                <configuration>
+                    <archive>
+                        <manifest>
+                            <mainClass>${main.class}</mainClass>
+                        </manifest>
+                    </archive>
+                </configuration>
+            </plugin>
+            -->
 
             <!--
             Puts your dependencies into the output jar file.
