@@ -1,4 +1,4 @@
-# java-api-starter-maven
+# java-maven-starter
 Java API or LIB starter project built with Maven.
 
 Simply clone/download this repo, rename the placeholders, and you are good to go!
