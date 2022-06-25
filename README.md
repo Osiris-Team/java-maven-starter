@@ -5,6 +5,7 @@ Simply clone/download this repo, rename the placeholders, and you are good to go
 
 ## Features
  - Documentation and dependency documentations get included
+ - Workflow to publish releases in one click
  - Gitignore ignores various IDEA files
  - Tests get ran at build
  - Resource filtering enabled
