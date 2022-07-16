@@ -18,7 +18,7 @@ on:
 jobs:
   build:
 
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
 
     steps:
 
@@ -32,7 +32,7 @@ jobs:
 
     - name: Build with Maven
       shell: pwsh
-      run: mvn -B package --file pom.xml
+      run: mvn -B package --file pom.xml -DskipTests
 
     - name: Show files.
       run: |
