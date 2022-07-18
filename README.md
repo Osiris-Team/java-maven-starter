@@ -11,7 +11,12 @@ Simply clone/download this repo, rename the placeholders, and you are good to go
  - Resource filtering enabled
  - Basic file structure 
 
-README template:
+## GitHub Workflows
+- `release.yml` to create releases with one click.
+- `build.yml` to automatically build the project after commits and/or on pull requests before merging.
+- `test.yml` to automatically build and run tests on the project and/or on pull requests before merging.
+
+## Readme template
 
 # INSERT_PROJECT_NAME_HERE
 INSERT_PROJECT_DESCRIPTION_HERE
