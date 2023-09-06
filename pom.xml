@@ -19,13 +19,13 @@
     </properties>
 
     <dependencies>
-        <!-- ==================== -->
+        <!-- ========================================================================================================== -->
         <!-- REGULAR DEPENDENCIES -->
-        <!-- ==================== -->
+        <!-- ========================================================================================================== -->
 
-        <!-- ================= -->
+        <!-- ========================================================================================================== -->
         <!-- TEST DEPENDENCIES -->
-        <!-- ================= -->
+        <!-- ========================================================================================================== -->
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter</artifactId>
@@ -33,6 +33,16 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
+
+    <dependencyManagement>
+        <dependencies>
+        <!-- ========================================================================================================== -->
+        <!-- TRANSITIVE DEPENDENCIES -->
+        <!-- ========================================================================================================== -->
+
+
+        </dependencies>
+    </dependencyManagement>
 
     <build>
         <finalName>${project.name}</finalName> <!-- If you'd like to have version information on your output jar, remove this. -->
@@ -135,8 +145,8 @@
 
             <!--
             Fails when the same dependency exists more than once, with different versions or if it's a SNAPSHOT.
-            If that is the case specify that dependency in <dependencies> above, with a version
-            that is compatible with all other dependencies, or
+            If that is the case specify/add that dependency in <dependenciesManagement> (transitive dependency) above,
+            with a version that is compatible with all other dependencies, or
             try to find an alternative dependency with similar functionality.
             Note that having this check is crucial to avoid runtime "method not found" errors that will lead to crashes
             and/or unexpected behaviour.
