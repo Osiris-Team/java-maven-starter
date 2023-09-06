@@ -10,6 +10,7 @@ Simply clone/download this repo, rename the placeholders, and you are good to go
  - Tests get ran at build
  - Resource filtering enabled
  - Basic file structure 
+ - Maven plugin executions for a safe application/library (maven-enforcer-plugin).
 
 ## GitHub Workflows
 - `release.yml` to create releases with one click.
