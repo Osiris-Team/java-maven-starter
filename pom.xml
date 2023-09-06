@@ -134,7 +134,7 @@
             </plugin>
 
             <!--
-            Fails when the same dependency exists more than once, with different versions or if its a SNAPSHOT.
+            Fails when the same dependency exists more than once, with different versions or if it's a SNAPSHOT.
             If that is the case specify that dependency in <dependencies> above, with a version
             that is compatible with all other dependencies, or
             try to find an alternative dependency with similar functionality.
