@@ -4,13 +4,14 @@ Java API or LIB starter project built with Maven.
 Simply clone/download this repo, rename the placeholders, and you are good to go!
 
 ## Features
- - Documentation and dependency documentations get included
- - Workflow to publish releases in one click
- - Gitignore ignores various IDEA files
- - Tests get ran at build
- - Resource filtering enabled
- - Basic file structure 
- - Maven plugin executions for a safe application/library (maven-enforcer-plugin).
+ - Documentation and dependencies documentation get included.
+ - GitHub Workflow to publish releases in one click.
+ - Safe application/library at runtime by forcing you to solve duplicate dependencies in the pom.xml (maven-enforcer-plugin).
+ - Gitignore ignores various IDEA files.
+ - Tests get ran at build.
+ - Resource filtering enabled.
+ - Basic file structure.
+
 
 ## GitHub Workflows
 - `release.yml` to create releases with one click.
