@@ -22,6 +22,17 @@
         <!-- ========================================================================================================== -->
         <!-- REGULAR DEPENDENCIES -->
         <!-- ========================================================================================================== -->
+        <dependency>
+            <groupId>com.github.Osiris-Team</groupId>
+            <artifactId>jlib</artifactId>
+            <version>18.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.jetbrains</groupId>
+            <artifactId>annotations</artifactId>
+            <version>24.1.0</version>
+        </dependency>
+
 
         <!-- ========================================================================================================== -->
         <!-- TEST DEPENDENCIES -->
