@@ -27,7 +27,7 @@ INSERT_PROJECT_DESCRIPTION_HERE
 Insert_important_links_here
 
 ## Installation
-1. Install Java (JDK or JRE, both work) [here](https://www.oracle.com/java/technologies/downloads/).
+1. Install Java (JDK or JRE, both work) [here](https://adoptium.net/de/temurin/releases/).
 2. Download the latest jar or zip file from the releases (on the top right of this site) or use the file that was sent to you directly.
 3. Open a terminal in your downloads folder ([video](https://www.youtube.com/watch?v=sE2SyNyM3Aw)).
 4. Run the command `java -jar NAME.jar` (or unpack the zip if provided, and execute the run script (`.\run.bat` or `./run.sh`)).
